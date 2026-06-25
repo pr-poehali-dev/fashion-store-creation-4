@@ -61,19 +61,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
-			},
-			fontFamily: {
-				display: ['Cormorant', 'serif'],
-				sans: ['Golos Text', 'sans-serif']
-			},
-			colors: {
+				},
 				pop: {
 					coral: 'hsl(var(--pop-coral))',
 					mint: 'hsl(var(--pop-mint))',
 					lemon: 'hsl(var(--pop-lemon))',
 					lilac: 'hsl(var(--pop-lilac))'
 				}
+			},
+			fontFamily: {
+				display: ['Cormorant', 'serif'],
+				sans: ['Golos Text', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
